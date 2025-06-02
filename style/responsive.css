@@ -1,0 +1,92 @@
+
+@media screen and (max-width:600px) {
+  .header,.main {
+    max-width: none;
+    width: 100%;
+    margin-top: 0;
+  } 
+  body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+nav{
+    border-bottom: 1px solid #FEA301;
+    padding:2% 5%;
+  }
+  nav img{
+    width: 80%;
+  }
+
+  nav .btn-primary, .logo-heading,nav ul{
+    display: none;
+  }
+ .banner{
+  flex-direction: column-reverse;
+ }
+ 
+.banner-first,.card-style{
+  text-align: center;
+  width: 85%;
+ }
+ .banner-image{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+ }
+.banner-title{
+  font-size: 20px;
+ }
+ .banner-description{
+  font-size: 12px;
+ }
+/* fab icon */
+ .nav-btn i{
+  display: inline-block;
+  /* font-size: 6vw; */
+    font-size: 25px;
+    color: #FEA301;
+ }
+ .curriculum{
+  background-image: none;
+ }
+ .curriculum-1{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+ }
+ .kinder ,.kinder-1, .kinder-2{
+  width: 90%;
+  max-width: 350px;
+  padding: 15px;
+  border-radius: 10px;
+ 
+ }
+
+ .new-btn{
+  display: none;
+ }
+ /* story */
+ .left-story-container{
+  display: none;
+ }
+.right-story-container{
+  justify-content: center;
+  gap: 2%;
+}
+.right-content{
+width: 48vw;
+gap: 2px;
+justify-content: center;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.right-content img{
+  width: 100%;
+}
+footer{
+  flex-direction: column;
+}
+}

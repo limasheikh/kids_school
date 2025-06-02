@@ -25,6 +25,9 @@ color: rgb(254, 163, 1);
 .color-2{
 color:#01ACFD ;
 }
+.color-3{
+  color: purple;
+}
 /* navbar  */
 nav {
     display: flex;
@@ -270,6 +273,18 @@ border-radius: 15px;
  text-wrap: nowrap;
 }
 
+.right-story-btn-2{
+background-color: rgb(93, 88, 240);
+ color: white;
+ padding: 3% 5%;
+ border-radius: 30px;
+ position: relative;
+ top:-25px;
+ left: 20px;
+ border: none;
+ text-wrap: nowrap;
+}
+
 .right-content h4{
  padding-left: 10%;
  padding-right: 5%;
@@ -300,17 +315,26 @@ footer{
   justify-content: space-between;
   position: relative;
   top: -20px;
-
+  
+}
+.one ,.two ,.three{
+  position: relative;
+  right: 20px;
+  
 }
 .one-display{
   display: flex;
   color: white;
+  position: relative;
+  right: 25px;
+  bottom: 10px;
 }
 
 .one p{
 font-size: 1.2rem;
 font-weight: 200;
 color: white;
+
 }
 
  footer .two a{

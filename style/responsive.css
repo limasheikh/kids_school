@@ -59,7 +59,6 @@ nav{
  }
  .kinder ,.kinder-1, .kinder-2{
   width: 90%;
-  max-width: 350px;
   padding: 15px;
   border-radius: 10px;
  
@@ -89,4 +88,14 @@ overflow-y: hidden;
 footer{
   flex-direction: column;
 }
+.one ,.two ,.three{
+  position: relative;
+  left: 2px;
 }
+.one-display p{
+  font-size: 16px;
+}
+  
+}
+
+
